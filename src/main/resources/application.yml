@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-oauth
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/master
